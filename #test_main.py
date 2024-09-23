@@ -8,3 +8,6 @@ class TestHelloWorld(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+  def greet_person(name):
+    return "Hello, [name]!"  
